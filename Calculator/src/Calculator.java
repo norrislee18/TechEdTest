@@ -106,6 +106,7 @@ public class Calculator extends JFrame implements ActionListener {
         	temporary[0] = Double.parseDouble(display.getText());
             lastOperatorSelected = "-";
         } catch(NumberFormatException e) {
+        } catch(Exception e) {
         }
     }
     
