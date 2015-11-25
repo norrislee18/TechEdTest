@@ -103,8 +103,9 @@ public class Calculator extends JFrame implements ActionListener {
         // TODO: Group 1: Subtract: Set the first input and the operator selected. 
         // Calculate and display result in getResult().
         try {
-            throw new NumberFormatException()
+            throw new Exception();
         } catch(NumberFormatException e) {
+        } catch(Exception e) {
         }
     }
     
